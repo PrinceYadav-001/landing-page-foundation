@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */
 
 body {
   margin: 0;
@@ -15,6 +15,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.banner-container .left-section
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .bussiness-image
@@ -43,6 +50,11 @@ body {
     border-radius: 12px;
 }
 
+.card-text
+{
+    text-align: center;
+}
+
 .cards-container
 {
     display: flex;
@@ -52,6 +64,22 @@ body {
 .content
 {
     flex: 1 1 auto;
+}
+
+.desc
+{
+    color: #DDDDDD;
+    font-size: 18px;
+}
+
+.footer
+{
+    text-align: center;
+    background-color: #1F2937;
+    color: #DDDDDD;
+    font-size: 18px;
+    padding: 40px;
+
 }
 
 .header
@@ -81,6 +109,13 @@ body {
     color:#F9FAF8;
 }
 
+.hero-logo-text
+{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
 .master-div
 {
     display: flex;
@@ -95,6 +130,26 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 100px 220px;
+    gap:50px;
+}
+
+.section--1 .left_part
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:15px;
+}
+
+.section--1 .sign-up-button
+{
+    border:none;
+}
+
+.section--1 .title
+{
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .section--2
@@ -104,6 +159,7 @@ body {
     align-items: center;
     padding: 50px 220px;
     gap:50px;
+    margin-bottom: 50px;
 }
 
 .section--2 .title
@@ -118,39 +174,37 @@ body {
 {
     background-color: #E5E7EB;
     font-size: 36px;
-    padding: 30px 350px;
+    padding: 120px 350px;
 }
 
 .section--4
 {
-    padding: 50px 220px;
+    padding: 100px 220px;
 }
 
 .sign-up-button
 {
-    border: none;
-    border-radius: 5px;
+    border: 3px white solid;
+    border-radius: 8px;
     background-color: #3882F6;
-    padding: 5px;
+    padding: 8px 28px;
     color:inherit;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 
-.title
-{
-    font-size: 48px;
-    weight: 900;
-}
 
 .quote-author
 {
     text-align: end;
     padding-right: 40px;
-    color:black;
+    color:#1F2937;
 }
 
 .quote-text
 {
-    color: #1F2937;
+    color: rgb(61, 81, 108);
     font-weight: 300;
 }
+
